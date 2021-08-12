@@ -13,10 +13,6 @@ public class Funcionario {
         this.departamento = departamento;
     }
 
-    public void imprimeFuncionario(){
-        System.out.println(this.nome+" | "+this.salario+" | "+this.data+" | "+this.departamento);
-    }
-
     public String getNome() {
         return this.nome;
     }
